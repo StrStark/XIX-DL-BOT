@@ -6,8 +6,8 @@ obj/
 *.db
 *.db-shm
 *.db-wal
-data/
-backups/
-logs/
+/data/
+/backups/
+/logs/
 .env
 .env.local
