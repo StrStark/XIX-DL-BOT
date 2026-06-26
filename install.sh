@@ -25,7 +25,7 @@ err()  { printf "${C_RED}✗${C_RESET}  %s\n" "$*" >&2; }
 # --------- args ---------
 INTERACTIVE=1
 DO_START=1
-REPO_URL="${REPO_URL:-https://github.com/REPLACE_ME/XIX-DL-BOT.git}"
+REPO_URL="${REPO_URL:-https://github.com/StrStark/XIX-DL-BOT.git}"
 
 while [ "${1:-}" != "" ]; do
   case "$1" in

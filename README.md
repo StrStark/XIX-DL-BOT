@@ -5,7 +5,7 @@
 ## One-shot install (Docker, interactive)
 
 ```bash
-git clone https://github.com/REPLACE_ME/XIX-DL-BOT.git
+git clone https://github.com/StrStark/XIX-DL-BOT.git
 cd XIX-DL-BOT
 ./install.sh
 ```
