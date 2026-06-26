@@ -1,0 +1,18 @@
+services:
+  bot:
+    build: .
+    container_name: xix-dl-bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - bot-data:/app/data
+      - bot-backups:/app/backups
+      - bot-logs:/app/logs
+      - ./src/DownloaderBot/welcome.txt:/app/welcome.txt:ro
+    # ports:
+    #   - "8080:8080"   # uncomment in webhook mode
+
+volumes:
+  bot-data:
+  bot-backups:
+  bot-logs:
